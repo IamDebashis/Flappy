@@ -86,7 +86,7 @@ public class FlappyBird extends ApplicationAdapter {
         if (gamestate == 1) {
 
             if (Gdx.input.isTouched()) {
-                valocity = -20;
+                valocity = -2;
                 Gdx.app.log("max_gap ", Float.toString(max_gap));
 
 
